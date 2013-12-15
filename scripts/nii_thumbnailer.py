@@ -1,8 +1,8 @@
 #!/usr/bin/env python
 
-import sys, os
+import sys
 import SimpleITK as sitk
-import cv2
+import Image # PIL
 
 from scipy.stats.mstats import mquantiles
 
@@ -34,8 +34,8 @@ if data.shape[0] < data.shape[1]:
 else:
     new_size = (data.shape[1]*size/data.shape[0], size)
 
-thumbnail = cv2.resize( data,new_size)
+thumbnail = Image.fromarray(data.astype('uint8'))    
+thumbnail = thumbnail.resize( new_size)
+thumbnail.save(output,'PNG')
 
-cv2.imwrite(output+".png",thumbnail)
-os.rename(output+".png",output)
 

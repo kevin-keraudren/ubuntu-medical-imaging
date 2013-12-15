@@ -14,6 +14,7 @@ Thumbnailer for medical images
 ------------------------------
 
 /usr/share/thumbnailers/nii.thumbnailer
+
 ~/Scripts/nii_thumbnailer.py
 
 
