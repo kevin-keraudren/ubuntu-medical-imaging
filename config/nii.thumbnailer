@@ -1,0 +1,4 @@
+[Thumbnailer Entry]
+TryExec=/home/kevin/Scripts/Nifti_thumbnailer.py
+Exec=/home/kevin/Scripts/Nifti_thumbnailer.py %s %i %o
+MimeType=image/nii;image/gznii;application/dicom;

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Encoding=UTF-8
+GenericName=IRTK Viewer
+Name=rview
+Exec=/home/kevin/Imperial/PhD/irtk.untouched/build/bin/rview %F
+TryExec=/home/kevin/Imperial/PhD/irtk.untouched/build/bin/rview
+Type=Application
+Terminal=false
+Categories=Education;Graphics;Science;DataVisualization;MedicalSoftware;Viewer;
+Icon=/home/kevin/Imperial/PhD/irtk.untouched/icons/IRTK.ico

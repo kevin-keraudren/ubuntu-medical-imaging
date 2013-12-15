@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mime-info xmlns="http://www.freedesktop.org/standards/shared-mime-info">
+   <mime-type type="image/nii">
+     <comment>NIFTI</comment>
+     <glob pattern="*.nii"/>
+   </mime-type>
+   <mime-type type="image/gznii">
+     <comment>gzip-compressed NIFTI</comment>
+     <sub-class-of type="application/x-gzip"/>
+     <glob pattern="*.nii.gz"/>
+     </mime-type>
+</mime-info>
