@@ -31,4 +31,4 @@ Property tab in nautilus for medical images
 
 ~/.local/share/nautilus-python/extensions/nautilus-irtk-property-page.py
 
-<img src="img/property_tab.png" width="400">
+<img src="img/property_tab.png" width="460">
