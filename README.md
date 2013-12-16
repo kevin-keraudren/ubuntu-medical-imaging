@@ -17,7 +17,7 @@ Thumbnailer for medical images
 
 ~/Scripts/nii_thumbnailer.py
 
-<img src="img/thumbnails.png" width="400">
+<img src="img/thumbnails.png" width="500">
 
 
 Use rview as default viewer in nautilus
@@ -31,4 +31,4 @@ Property tab in nautilus for medical images
 
 ~/.local/share/nautilus-python/extensions/nautilus-irtk-property-page.py
 
-<img src="img/property_tab.png" width="300">
+<img src="img/property_tab.png" width="400">
